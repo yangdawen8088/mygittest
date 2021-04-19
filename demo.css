@@ -1,0 +1,10 @@
+.box{
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 100px;
+    border-style: double;
+    background-color: rgb(226, 226, 226);
+}
+.box span{
+    color: rgba(236, 0, 0, 0.5);
+}
