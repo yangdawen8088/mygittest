@@ -21,3 +21,9 @@
 21、git reset --hard [ID]   ：加上版本ID即可回到指定的版本，通过git log获取所有版本记录，并找到指定版本的ID
 22、git push origin [仓库名称]    ：将本地仓库推送到远程仓库main
 23、git checkout [版本号] -- [文件名称] ：将指定文件回退到指定的版本
+24、git tag v1.0    ：给当前版本创建一个标签v1.0，
+25、git branch dev  ：创建分支dev
+26、git branch  ：查看所有分支，带*号的表示当前分支
+27、git checkout dev    ：跳转到分支dev
+28、git branch -d dev   ：删除分支dev
+29、git checkout -b dev ：创建并跳转到dev分支
