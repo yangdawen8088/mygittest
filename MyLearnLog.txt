@@ -5,3 +5,4 @@
 5、git push -u origin main  ：将代码提交到main分支
 6、git status   ：查看当前项目有哪些改动的地方
 7、git log  ：查看提交记录
+8、git log --author='某个人的名字'  ：查看某个人的提交记录
