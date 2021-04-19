@@ -1,0 +1,7 @@
+1、git init    :初始化当前路径下的仓库
+2、git add .    ：将当前路径添加到git仓库中，将代码放置到暂存区中，仓库分为三个区：本地区、暂存区、
+3、git commit -m '这里填写描述信息' ：将项目提交到远程仓库
+4、git remote add origin https://github.com/yangdawen8088/mygittest.git ：上传到远程仓库，后面的URL为远程仓库链接
+5、git push -u origin main  ：将代码提交到main分支
+6、git status   ：查看当前项目有哪些改动的地方
+7、git log  ：查看提交记录
