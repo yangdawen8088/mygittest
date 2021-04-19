@@ -11,3 +11,9 @@
 11、git config --global --list  ：查看全局配置文件
 12、git rm -f demo.html    ：命令行强制删除某个文件
 13、git mv demo.html index.html ：命令行重命名文件名，第一个为原文件，第二个为重命名后的文件，如果想要移动文件到指定的文件夹，可以在文件名前面加上路径
+14、git log --pretty=oneline index.html  ：查看某个文件前后变化情况
+15、git show [ID]   ：在14行命令执行后前面的为ID，这样子可以查看到具体文件的变化内容是什么
+16、git log -p index.html   ：查看某个文件具体更改了哪些内容
+17、git diff    ：查看改动了哪些内容
+18、git checkout -- index.html  ：还原某个文件到上一次提交的状况
+19、git reset HEAD index.html   ：撤销追踪
