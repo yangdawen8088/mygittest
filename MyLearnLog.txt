@@ -17,3 +17,4 @@
 17、git diff    ：查看改动了哪些内容
 18、git checkout -- index.html  ：还原某个文件到上一次提交的状况
 19、git reset HEAD index.html   ：撤销追踪
+20、git reset --hard HEAD^^ ：返回到上一个版本的上一个版本，命令的最后“^”表示一个版本，有几个“^”就是回退几个版本
