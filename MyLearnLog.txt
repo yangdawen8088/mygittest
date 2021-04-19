@@ -9,3 +9,5 @@
 9、git config --global user.name '用户名'   ：配置全局用户名
 10、git config --global user.email '邮箱'   ：配置全局邮箱
 11、git config --global --list  ：查看全局配置文件
+12、git rm -f demo.html    ：命令行强制删除某个文件
+13、git mv demo.html index.html ：命令行重命名文件名，第一个为原文件，第二个为重命名后的文件，如果想要移动文件到指定的文件夹，可以在文件名前面加上路径
