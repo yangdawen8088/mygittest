@@ -28,3 +28,6 @@
 28、git branch -d dev   ：删除分支dev，如果时-D的话就是强制删除某个分支
 29、git checkout -b dev ：创建并跳转到dev分支
 30、git merge dev   ：（切换到主分支操作）将dev分支合并到主分支
+31、git merge --abort    ：忽略其他分支代码，保留原分支代码。当合并分支时出现了冲突的时候可以选择这么处理，但一般情况下还需要进一步查看代码的情况
+32、git log --oneline --graph   ：查看当前版本的版本路线
+33、git fetch   ：拉取所有的远程仓库
