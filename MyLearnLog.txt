@@ -32,3 +32,4 @@
 32、git log --oneline --graph   ：查看当前版本的版本路线
 33、git fetch   ：拉取所有的远程仓库
 34、git pull    : 将远程仓库里面的代码同步到本地，要求本地代码先提交到远程仓库，然后再来去下来。
+35、git clone -b <Branch Name> <Clone Links>    ：克隆指定分支的代码
